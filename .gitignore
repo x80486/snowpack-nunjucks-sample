@@ -1,0 +1,23 @@
+#
+# Excludes
+.history/
+.idea/
+.npm/
+.settings/
+.vscode/
+build/
+node_modules/
+
+.DS_Store
+.classpath
+.env
+.project
+Thumbs.db
+npm-debug.log
+*.iml
+*.ipr
+*.iws
+
+
+#
+# Includes

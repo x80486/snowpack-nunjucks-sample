@@ -1,0 +1,25 @@
+= snowpack-nunjucks-sample
+:uri-mozilla-css: https://developer.mozilla.org/en-US/docs/Web/CSS/
+:uri-mozilla-javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
+:uri-mozilla-html: https://developer.mozilla.org/en-US/docs/Web/HTML/
+
+A web application featuring the capabilities of the standard "Core Web" technologies.
+
+== Bootstrap / Setup
+
+Make sure Node.jsfootnote:[Node.js version must be compatible or match the one specified in `package.json`] (and `npm`)
+are installed. Execute the following commands in a terminal to verify that:
+
+[source,shell]
+----
+$ node --version
+$ npm --version
+----
+
+Finally, execute `npm install` — that should take care of everything needed to bootstrap the project.
+
+== Running Application
+
+== Using Node.js
+
+The preferred method while developing the application "locally" is to use `Snowpack`: `npm run start`.
